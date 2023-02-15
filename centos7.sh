@@ -3,4 +3,6 @@
 yum install wget -y
 cd /etc/yum.repos.d/
 wget -O CentOS-Base.repo https://raw.githubusercontent.com/howard-99/ir-mirror/main/CentOS7.repo
+yum clean all
+
 
